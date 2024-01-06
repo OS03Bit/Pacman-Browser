@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <title>Electron MC App</title>
+</head>
+
+<body>
+  <div id="tablisttag">
+    <button id="ntbtn1">
+      <div id="tab1"><img src="https://www.google.com/favicon.ico" id="" alt="">Google</div>
+    </button>
+  </div>
+  <div id="tablistscreen">
+    <div class="screenset">
+      <div id="controlbar1" class="controlbar">
+        <button id="back">back</button>
+        <button id="forward">forward</button>
+        <button id="reload">reload</button>
+        <button id="newtab">newtab</button>
+        <form action="">
+          <input type="text" id="url">
+          <button id="search">search</button>
+        </form>
+      </div>
+      <webview src="https://www.google.com/" id="webscreen">
+    </div>
+  </div>
+  <div id="backend-response"></div>
+  <script src="renderer.js"></script>
+</body>
+
+</html>

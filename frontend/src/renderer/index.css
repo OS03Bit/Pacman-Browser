@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.controlbar{
+    height: 5vh;
+    display: flex;
+    button, input{
+        height: 100%;
+    }
+}
+#webscreen{
+    width: 100vw;
+    height: 90vh;
+}
+#tablisttag{
+    display: flex;
+}
+#ico{
+    /* width: 100px; */
+    /* height: 100px; */
+    border-radius: 50%;
+}
+.ntdiaplaynone{
+    display: none;
+    visibility: none;
+}
